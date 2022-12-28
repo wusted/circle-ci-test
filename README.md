@@ -8,6 +8,7 @@ For Circle CI Testing Usage
 - For Terraform to connect to CircleCI and DigitalOcean
 - Add the DOCKER_USER and DOCKER_PASS 
 - envs to CircleCI for the project.
+- add the A record in the Domain Provider for the Load Balancer.
 
 # Usage.
 
