@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-docker-deployment
+  namespace: default
+  labels:
+    app: hello-docker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-docker
+  template:
+    metadata:
+      labels:
+        app:  hello-docker
+    spec:
+      containers:
+        - name: hello-docker
+          image: wusted/circle-ci-test:$COMMIT_SHA1
+          ports:
+            - name: http
+              containerPort: 80

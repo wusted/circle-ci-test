@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+
+  circle-ci-test:
+    build: .
+    ports:
+      - 80:80 
