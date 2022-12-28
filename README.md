@@ -12,12 +12,13 @@ For Circle CI Testing Usage
 # Usage.
 
 1. Deploy Cloud Infrastructure.
-Kubernetes Cluster
-Load Balancer
-CircleCI
-Output File
-DNS Records and Domain
+- Kubernetes Cluster
+- Load Balancer
+- CircleCI
+- Output File
+- DNS Records and Domain
 
+In this other Repo:
 https://github.com/wusted/kubernetes-install/tree/main/13-cicd-terraform-circleci-kube-digitalocean
 /wusted/kubernetes-install/13-cicd-terraform-circleci-kube-digitalocean
 ```
