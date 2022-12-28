@@ -18,6 +18,7 @@ CircleCI
 Output File
 DNS Records and Domain
 
+https://github.com/wusted/kubernetes-install/tree/main/13-cicd-terraform-circleci-kube-digitalocean
 /wusted/kubernetes-install/13-cicd-terraform-circleci-kube-digitalocean
 ```
 $ terraform init
