@@ -11,6 +11,11 @@ For Circle CI Testing Usage
 
 # Usage.
 
+# Step 1 and 2: In this Repo:
+
+https://github.com/wusted/kubernetes-install/tree/main/13-cicd-terraform-circleci-kube-digitalocean
+/wusted/kubernetes-install/13-cicd-terraform-circleci-kube-digitalocean
+
 1. Deploy Cloud Infrastructure.
 - Kubernetes Cluster
 - Load Balancer
@@ -18,9 +23,6 @@ For Circle CI Testing Usage
 - Output File
 - DNS Records and Domain
 
-In this other Repo:
-https://github.com/wusted/kubernetes-install/tree/main/13-cicd-terraform-circleci-kube-digitalocean
-/wusted/kubernetes-install/13-cicd-terraform-circleci-kube-digitalocean
 ```
 $ terraform init
 $ terraform plan
@@ -32,6 +34,10 @@ $ terraform apply
 ```
 $ kubectl --kubeconfig=kubeconfig.yaml get nodes
 ```
+
+# Step 3 and 4: In this Repo:
+
+https://github.com/wusted/circle-ci-test
 
 3. Add a change to this repo in the .circleci/kube directory 
 and add the replacement to the file scripts/ci-deploy.sh
