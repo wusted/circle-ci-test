@@ -14,6 +14,9 @@ For Circle CI Testing Usage
 
 # Step 1 and 2: In this Repo:
 
+If no CI is desired, just to deploy a K8sCluster
+Then only follow step 1 and 2.
+
 https://github.com/wusted/kubernetes-install/tree/main/13-cicd-terraform-circleci-kube-digitalocean
 /wusted/kubernetes-install/13-cicd-terraform-circleci-kube-digitalocean
 
