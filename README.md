@@ -18,6 +18,7 @@ CircleCI
 Output File
 DNS Records and Domain
 
+/wusted/kubernetes-install/13-cicd-terraform-circleci-kube-digitalocean
 ```
 $ terraform init
 $ terraform plan
@@ -30,4 +31,6 @@ $ terraform apply
 $ kubectl --kubeconfig=kubeconfig.yaml get nodes
 ```
 
-3. 
+3. Add a change to this repo in the .circleci/kube directory 
+and add the replacement to the file scripts/ci-deploy.sh
+4. Add, Commit and Push the changes from CLI.
